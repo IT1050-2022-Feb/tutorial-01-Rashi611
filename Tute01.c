@@ -6,6 +6,17 @@
 
 int main() {
   
+  float marks1 , marks2 ;
+  float total = 0 ;
+  float avg ;
+  printf("input mark 1 = ");
+  scanf("%f", &marks1);
+  printf("input mark 2 = ");
+  scanf("%f", &marks2);
+  total = marks1 + marks2 ;
+  avg = total / 2 ;
+  printf("average = %.2f", avg);
+
   return 0;
 }
 
